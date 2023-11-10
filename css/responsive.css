@@ -1,0 +1,814 @@
+@media (max-width:575.98px) {
+/* ========Navbar Part Start======= */
+    .navbar-toggler:focus {
+        box-shadow: none;
+    }
+    .navbar-toggler {
+        color: #007f5f;
+        border: 1px solid #007f5f;
+    }
+    .navbar-nav {
+        background: #007f5f;
+        border-radius: 17px;
+        padding: 15px 0;
+        gap: 15px;
+    }
+    .main_menu {
+        padding:0;
+   }
+    .main_menu ul li a {
+        color: #fff !important;
+    }
+    .book_btn {
+        margin-top: 15px;
+        text-align: center;
+    }
+/* ====== Banner Part Start ======= */
+    #banner{
+        padding: 50px 0;
+    }
+    .banner_text{
+        width: 100%;
+    }
+    .banner_text h1{
+        font-size: 40px;
+    }
+    .src_bar {
+        width: 100%;
+    }
+    .src_option {
+        width: 100%;
+        justify-content: center;
+        flex-direction: column;
+        gap: 40px;
+    }
+    .src_bar .src_icon {
+        justify-content: center;
+    }
+    .src_item input {
+        text-align: center;
+    }
+/* ====== Benefit Part Start ======= */
+    #benefit{
+        padding: 50px 0;
+    }
+    .benefit_heading {
+        width: 100%;
+    }
+    .benefit_heading h3 {
+        font-size: 27px;
+    }
+    .benefit_heading p {
+        font-size: 14px;
+        line-height: 25px;
+    }
+    .benefit_row {
+        margin-top: 20px;
+    }
+/* ====== Benefit Part Start ======= */
+    .popular_heading h3 {
+        width: 100%;
+        font-size: 27px;
+    }
+    .popular_heading p {
+        width: 100%;
+        font-size: 14px;
+        line-height: 25px;
+    }
+    .popular_slider_item .popular_text h3 {
+        font-size: 16px;
+    }
+    .popular_slider_item .popular_text p {
+        font-size: 13px;
+        line-height: 25px;
+    }
+/* ====== Travel Part Start ======= */
+    #travel{
+        padding: 50px 0;
+    }
+    .common_heading h3 {
+        width: 100%;
+        font-size: 27px;
+        text-align: center;
+    }
+    .common_heading p {
+        width: 100%;
+        font-size: 14px;
+        text-align: center;
+    }
+    .travel_list ul{
+        margin-top: 30px;
+    }
+    .travel_list ul li{
+        width: 100%;
+    }
+    .travel_text .travel_list ul li {
+        width: 100%;
+        font-size: 14px;
+    }
+    .travel_text .travel_list ul li span {
+        display: inline;
+        margin-left: 0px;
+    }
+    .travel_text .travel_button a {
+        margin: 40px auto;
+    }
+    .travel_counter {
+        justify-content: center;
+    }
+/* ====== Destination Part Start ======= */
+    #destination {
+        padding: 50px 0 0 0;
+    }
+    .common_heading h3 {
+        font-size: 27px;
+        line-height: 40px;
+    }
+    .common_heading p {
+        font-size: 12px;
+        text-align: justify;
+    }
+    .destination_btn {
+        width: 100%;
+    }
+    .destination_btn a{
+        display: block;
+        margin: 30px auto ;
+    }
+    .destination_img img {
+        display: block;
+        margin: 0 auto;
+        width: 295px;
+    }
+    .destination_form {
+        width: 100%;
+        top: 300px;
+    }
+    .destination_form .destination_src {
+        width: 100%;
+        margin: 0 auto;
+    }
+    .destination_form ul li {
+        width: 100%;
+        margin: 0 auto;
+    }
+    .event_img img {
+        width: 295px;
+        display: block;
+        margin: 120px auto 0 auto;
+    }
+    .event_text {
+        margin-top: 50px;
+    }
+    .event_list {
+        display: block;
+    }
+/* ====== Explore Part Start ======= */
+    #explore {
+        padding: 30px 0;
+    }
+    .explore_bottom_btn {
+        margin-top: 0px;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .explore_btn {
+        width: 100%;
+        padding: 10px 12px;
+        border-radius: 10px;
+        font-size: 14px;
+        text-align: center;
+    }
+/* ====== Testimonial Part Start ======= */
+    .testimonial_img{
+        width: 80%;
+        margin: 0 auto;
+    }
+    .testimonial_img img {
+        width: 80%;
+    }
+    .testimonial_text {
+        margin-top: 0px;
+        margin-left: 0px;
+        margin-bottom: 30px;
+    }
+    .testimonial_text .testimonial_heading h3 {
+        font-size: 30px;
+    }
+    .testimonial_text .testimonial_heading p {
+        font-size: 35px;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    .testimonial_slider_item p {
+        font-size: 13px;
+        line-height: 20px;
+    }
+/* ====== Subscribe Part Start ======= */
+    #subscribe{
+        padding: 50px 0;
+    }
+    .subscribe_heading {
+        width: 100%;
+    }
+    .subscribe_heading h2 {
+        font-size: 20px;
+    }
+    .subscribe_heading p {
+        font-size: 14px;
+        margin: 20px 0 30px 0;
+    }
+    .subscribe_input {
+        width: 100%;
+        height: auto;
+        border-radius: 5px;
+        justify-content: center;
+        padding: 9px 11px 9px 11px;
+        flex-direction: column;
+    }
+    .subscribe_input input, .subscribe_input input::placeholder {
+        text-align: center;
+        line-height: 50px;
+    }
+    .subscribe_input button {
+        height: 40px;
+        margin-top: 20px;
+    }
+/* ======= Footer Part Start ===== */
+    #footer {
+        padding: 50px 0 40px 0;
+    }
+    .footer_left {
+        width: 100%;
+    }
+    .footer_left .social_icon {
+        justify-content: start;
+        margin-top: 15px;
+        margin-bottom: 25px;
+        gap: 35px;
+    }
+    .footer_left .social_icon a img {
+        width: 30px;
+    }
+    .footer_menu {
+        display: block;
+        margin-left: 0px;
+    }
+    .footer_menu_item h2 {
+        margin-top: 30px;
+        margin-bottom: 10px;
+    }
+    .footer_menu_item ul li a {
+        line-height: 30px;
+    }
+}
+@media (min-width:576px) and (max-width:767.98px){
+/* ========Navbar Part Start======= */
+    .navbar-toggler:focus {
+        box-shadow: none;
+    }
+    .navbar-toggler {
+        color: #007f5f;
+        border: 1px solid #007f5f;
+    }
+    .navbar-nav {
+        background: #007f5f;
+        border-radius: 17px;
+        padding: 15px 0;
+        gap: 15px;
+    }
+    .main_menu {
+        padding:0;
+   }
+    .main_menu ul li a {
+        color: #fff !important;
+    }
+    .book_btn {
+        margin-top: 15px;
+        text-align: center;
+    }
+/* ====== Banner Part Start ======= */
+    #banner{
+        padding: 70px 0;
+    }
+    .banner_text{
+        width: 100%;
+    }
+    .banner_text h1{
+        font-size: 40px;
+    }
+    .src_bar {
+        width: 100%;
+    }
+    .src_option {
+        width: 100%;
+        justify-content: center;
+        flex-direction: column;
+        gap: 40px;
+    }
+    .src_bar .src_icon {
+        justify-content: center;
+    }
+    .src_item input {
+        text-align: center;
+    }   
+/* ====== Benefit Part Start ======= */
+    .popular_heading h3 {
+        width: 100%;
+        font-size: 27px;
+    }
+    .popular_heading p {
+        width: 100%;
+        font-size: 14px;
+        line-height: 25px;
+    }
+    .popular_slider_item .popular_text h3 {
+        font-size: 16px;
+    }
+    .popular_slider_item .popular_text p {
+        font-size: 13px;
+        line-height: 25px;
+    }
+/* ====== Benefit Part Start ======= */
+    #benefit{
+        padding: 70px 0;
+    }
+    .benefit_heading {
+        width: 100%;
+    }
+    .benefit_heading h3 {
+        font-size: 30px;
+    }
+    .benefit_heading p {
+        font-size: 16px;
+        line-height: 25px;
+    }
+    .benefit_row {
+        margin-top: 20px;
+    }
+/* ====== Travel Part Start ======= */
+    #travel{
+        padding: 70px 0;
+    }
+    .common_heading h3 {
+        width: 100%;
+        font-size: 27px;
+        text-align: center;
+    }
+    .common_heading p {
+        width: 100%;
+        font-size: 14px;
+        text-align: center;
+    }
+    .travel_list ul{
+        margin-top: 30px;
+    }
+    .travel_list ul li{
+        width: 100%;
+    }
+    .travel_text .travel_list ul li {
+        width: 100%;
+        font-size: 14px;
+    }
+    .travel_text .travel_list ul li span {
+        display: inline;
+        margin-left: 0px;
+    }
+    .travel_text .travel_button a {
+        margin: 40px auto;
+    }
+    .travel_counter {
+        justify-content: center;
+    }
+/* ====== Destination Part Start ======= */
+    #destination {
+        padding: 70px 0 0 0;
+    }
+    .common_heading h3 {
+        font-size: 27px;
+        line-height: 40px;
+    }
+    .common_heading p {
+        font-size: 12px;
+        text-align: justify;
+    }
+    .destination_btn {
+        width: 100%;
+    }
+    .destination_btn a{
+        display: block;
+        margin: 30px auto ;
+    }
+    .destination_img img {
+        display: block;
+        margin: 0 auto;
+        width: 360px;
+    }
+    .destination_form {
+        width: 100%;
+        top: 400px;
+    }
+    .destination_form .destination_src {
+        width: 100%;
+        margin: 0 auto;
+    }
+    .destination_form ul li {
+        width: 100%;
+        margin: 0 auto;
+    }
+    .event_img img {
+        width: 360px;
+        display: block;
+        margin: 150px auto 0 auto;
+    }
+    .event_text {
+        margin-top: 50px;
+    }
+    .event_list {
+        display: block;
+    }
+/* ====== Explore Part Start ======= */
+    #explore {
+        padding: 50px 0;
+    }
+    .explore_bottom_btn {
+        margin-top: 0px;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .explore_btn {
+        width: 100%;
+        padding: 10px 12px;
+        border-radius: 10px;
+        font-size: 14px;
+        text-align: center;
+    }
+/* =========Country Slider Part start===== */
+    .country_slider_item .slider_text h4{
+        font-size: 15px;
+    }
+    .country_slider_item .slider_text h5{
+        font-size: 12px;
+        line-height: 20px;
+    }
+/* ====== Testimonial Part Start ======= */
+    .testimonial_img{
+        width: 80%;
+        margin: 0 auto;
+    }
+    .testimonial_img img {
+        width: 100%;
+    }
+    .testimonial_text {
+        margin-top: 0px;
+        margin-left: 0px;
+        margin-bottom: 50px;
+    }
+    .testimonial_text .testimonial_heading h3 {
+        font-size: 30px;
+    }
+    .testimonial_text .testimonial_heading p {
+        font-size: 35px;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    .testimonial_slider_item p {
+        font-size: 13px;
+        line-height: 20px;
+    }
+/* ====== Subscribe Part Start ======= */
+    #subscribe{
+        padding: 70px 0;
+    }
+    .subscribe_heading {
+        width: 100%;
+    }
+    .subscribe_heading h2 {
+        font-size: 20px;
+    }
+    .subscribe_heading p {
+        font-size: 14px;
+        margin: 20px 0 30px 0;
+    }
+    .subscribe_input {
+        width: 100%;
+        height: auto;
+        border-radius: 5px;
+        justify-content: center;
+        padding: 9px 11px 9px 11px;
+        flex-direction: column;
+    }
+    .subscribe_input input, .subscribe_input input::placeholder {
+        text-align: center;
+        line-height: 50px;
+    }
+    .subscribe_input button {
+        height: 40px;
+        margin-top: 20px;
+    }
+/* ======= Footer Part Start ===== */
+    #footer {
+        padding: 70px 0 50px 0;
+    }
+    .footer_left {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+    }
+    .footer_left .social_icon {
+        justify-content: center;
+        margin-top: 15px;
+        margin-bottom: 25px;
+        gap: 35px;
+    }
+    .footer_left .social_icon a img {
+        width: 30px;
+    }
+    .footer_menu {
+        margin-left: 0px;
+    }
+    .footer_menu_item h2 {
+        margin-top: 30px;
+        margin-bottom: 10px;
+    }
+    .footer_menu_item ul li a {
+        line-height: 30px;
+    }
+}
+@media (min-width:768px) and (max-width:991.98px){
+/* ========Navbar Part Start======= */
+    .navbar-toggler:focus {
+        box-shadow: none;
+    }
+    .navbar-toggler {
+        color: #007f5f;
+        border: 1px solid #007f5f;
+    }
+    .navbar-nav {
+        background: #007f5f;
+        border-radius: 17px;
+        padding: 15px 0;
+        gap: 15px;
+    }
+    .main_menu {
+        padding:0;
+    }
+    .main_menu ul li a {
+        color: #fff !important;
+    }
+    .book_btn {
+        margin-top: 15px;
+        text-align: center;
+    }
+/* ====== Banner Part Start ======= */
+    #banner{
+        padding: 90px 0;
+    }
+    .banner_text{
+        width: 100%;
+    }
+    .banner_text h1{
+        font-size: 50px;
+    }
+    .src_bar {
+        width: 100%;
+    }
+    .src_option {
+        width: 100%;
+        justify-content: center;
+        flex-direction: column;
+        gap: 40px;
+    }
+    .src_bar .src_icon {
+        justify-content: center;
+    }
+    .src_item input {
+        text-align: center;
+    } 
+/* ====== Benefit Part Start ======= */
+    .popular_heading h3 {
+        width: 100%;
+        font-size: 30px;
+    }
+    .popular_heading p {
+        width: 100%;
+        font-size: 16px;
+        line-height: 25px;
+    }
+    .popular_slider_item .popular_text h3 {
+        font-size: 16px;
+    }
+    .popular_slider_item .popular_text p {
+        font-size: 13px;
+        line-height: 25px;
+    }
+/* ====== Benefit Part Start ======= */
+    #benefit{
+        padding: 90px 0;
+    }
+    .benefit_heading {
+        width: 100%;
+    }
+    .benefit_heading h3 {
+        font-size: 30px;
+    }
+    .benefit_heading p {
+        font-size: 16px;
+        line-height: 25px;
+    }
+    .benefit_row {
+        margin-top: 20px;
+    }
+/* ====== Travel Part Start ======= */
+    #travel{
+        padding: 90px 0;
+    }
+    .common_heading h3 {
+        width: 100%;
+        font-size: 30px;
+        text-align: center;
+    }
+    .common_heading p {
+        width: 100%;
+        font-size: 16px;
+        text-align: center;
+    }
+    .travel_list ul{
+        margin-top: 30px;
+    }
+    .travel_list ul li{
+        width: 100%;
+    }
+    .travel_text .travel_list ul li {
+        width: 100%;
+        font-size: 14px;
+    }
+    .travel_text .travel_list ul li span {
+        display: inline;
+        margin-left: 0px;
+    }
+    .travel_text .travel_button a {
+        margin: 40px auto;
+    }
+    .travel_counter {
+        justify-content: center;
+    }
+    /* ====== Destination Part Start ======= */
+    #destination {
+        padding: 90px 0 0 0;
+    }
+    .common_heading h3 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .common_heading p {
+        font-size: 16px;
+        text-align: justify;
+    }
+    .destination_btn {
+        width: 100%;
+    }
+    .destination_btn a{
+        display: block;
+        margin: 30px auto ;
+    }
+    .destination_img img {
+        display: block;
+        margin: 0 auto;
+        width: 450px;
+    }
+    .destination_form {
+        width: 100%;
+        top: 450px;
+    }
+    .destination_form .destination_src {
+        width: 100%;
+        margin: 0 auto;
+    }
+    .destination_form ul li {
+        width: 100%;
+        margin: 0 auto;
+    }
+    .event_img img {
+        width: 450PX;
+        display: block;
+        margin: 150px auto 0 auto;
+    }
+    .event_text {
+        margin-top: 50px;
+    }
+    .event_list {
+        display: block;
+    }
+    /* ====== Explore Part Start ======= */
+    #explore {
+        padding: 50px 0;
+    }
+    .explore_bottom_btn {
+        margin-top: 0px;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .explore_btn {
+        width: 100%;
+        padding: 10px 12px;
+        border-radius: 10px;
+        font-size: 14px;
+        text-align: center;
+    }
+    /* =========Country Slider Part start===== */
+    .country_slider_item .slider_text h4{
+        font-size: 15px;
+    }
+    .country_slider_item .slider_text h5{
+        font-size: 12px;
+        line-height: 20px;
+    }
+    /* ====== Testimonial Part Start ======= */
+    .testimonial_img{
+        width: 80%;
+        margin: 0 auto;
+    }
+    .testimonial_img img {
+        width: 100%;
+    }
+    .testimonial_text {
+        margin-top: 0px;
+        margin-left: 0px;
+        margin-bottom: 50px;
+    }
+    .testimonial_text .testimonial_heading h3 {
+        font-size: 30px;
+    }
+    .testimonial_text .testimonial_heading p {
+        font-size: 35px;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    .testimonial_slider_item p {
+        font-size: 13px;
+        line-height: 20px;
+    }
+    /* ====== Subscribe Part Start ======= */
+    #subscribe{
+        padding: 70px 0;
+    }
+    .subscribe_heading {
+        width: 100%;
+    }
+    .subscribe_heading h2 {
+        font-size: 20px;
+    }
+    .subscribe_heading p {
+        font-size: 14px;
+        margin: 20px 0 30px 0;
+    }
+    .subscribe_input {
+        width: 100%;
+        height: auto;
+        border-radius: 5px;
+        justify-content: center;
+        padding: 9px 11px 9px 11px;
+        flex-direction: column;
+    }
+    .subscribe_input input, .subscribe_input input::placeholder {
+        text-align: center;
+        line-height: 50px;
+    }
+    .subscribe_input button {
+        height: 40px;
+        margin-top: 20px;
+    }
+    /* ======= Footer Part Start ===== */
+    #footer {
+        padding: 70px 0 50px 0;
+    }
+    .footer_left {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+    }
+    .footer_left .social_icon {
+        justify-content: center;
+        margin-top: 15px;
+        margin-bottom: 25px;
+        gap: 35px;
+    }
+    .footer_left .social_icon a img {
+        width: 30px;
+    }
+    .footer_menu {
+        margin-left: 0px;
+    }
+    .footer_menu_item h2 {
+        margin-top: 30px;
+        margin-bottom: 10px;
+    }
+    .footer_menu_item ul li a {
+        line-height: 30px;
+    }
+}
